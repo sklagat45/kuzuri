@@ -2,7 +2,6 @@ package com.sklagat46.kuzuri.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.sklagat46.kuzuri.MainActivity
 import com.sklagat46.kuzuri.R
 
 /**
