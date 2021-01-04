@@ -7,7 +7,7 @@
         android:width="@dimen/image_border_stroke_size"
         android:color="@color/secondary_text_color" />
 
-    <solid android:color="@color/white_color" />
+    <solid android:color="@color/white" />
 
     <corners android:radius="@dimen/add_place_image_shape_radius" />
 </shape>
