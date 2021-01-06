@@ -3,6 +3,9 @@ package com.sklagat46.kuzuri.activities
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.sklagat46.kuzuri.R
+import com.sklagat46.kuzuri.models.HappyPlaceModel
+import kotlinx.android.synthetic.main.activity_happy_place_detail.*
+
 
 /**
  * https://www.raywenderlich.com/230-introduction-to-google-maps-api-for-android-with-kotlin

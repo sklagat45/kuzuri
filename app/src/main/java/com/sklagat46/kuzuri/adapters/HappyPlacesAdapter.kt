@@ -1,4 +1,4 @@
-package com.happyplaces.adapters
+package com.sklagat46.kuzuri.adapters
 
 import android.app.Activity
 import android.content.Context
@@ -8,12 +8,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.happyplaces.R
-import com.happyplaces.activities.AddHappyPlaceActivity
+import com.sklagat46.kuzuri.R
 import com.sklagat46.kuzuri.activities.MainActivity
 import com.sklagat46.kuzuri.database.DatabaseHandler
 import com.sklagat46.kuzuri.models.HappyPlaceModel
-import kotlinx.android.synthetic.main.item_happy_place.view.*
 
 open class HappyPlacesAdapter(
     private val context: Context,

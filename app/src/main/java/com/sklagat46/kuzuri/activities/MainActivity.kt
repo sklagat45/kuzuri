@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.happyplaces.adapters.HappyPlacesAdapter
+import com.sklagat46.kuzuri.adapters.HappyPlacesAdapter
 import com.sklagat46.kuzuri.R
 import com.sklagat46.kuzuri.database.DatabaseHandler
 import com.sklagat46.kuzuri.models.HappyPlaceModel
