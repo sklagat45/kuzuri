@@ -9,9 +9,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.sklagat46.kuzuri.R
+import com.sklagat46.kuzuri.activities.AddHappyPlace
 import com.sklagat46.kuzuri.activities.MainActivity
 import com.sklagat46.kuzuri.database.DatabaseHandler
 import com.sklagat46.kuzuri.models.HappyPlaceModel
+import kotlinx.android.synthetic.main.activity_add_happy_place.view.iv_place_image
+import kotlinx.android.synthetic.main.item_happy_place.view.*
 
 open class HappyPlacesAdapter(
     private val context: Context,
@@ -75,7 +78,7 @@ open class HappyPlacesAdapter(
      * A function to edit the added happy place detail and pass the existing details through intent.
      */
     fun notifyEditItem(activity: Activity, position: Int, requestCode: Int) {
-        val intent = Intent(context, AddHappyPlaceActivity::class.java)
+        val intent = Intent(context, AddHappyPlace::class.java)
         intent.putExtra(MainActivity.EXTRA_PLACE_DETAILS, list[position])
         activity.startActivityForResult(
                 intent,

@@ -4,8 +4,9 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.sklagat46.kuzuri.models.HappyPlaceModel
 import com.sklagat46.kuzuri.R
+import com.sklagat46.kuzuri.models.HappyPlaceModel
+import kotlinx.android.synthetic.main.activity_happy_place_detail.*
 
 class HappyPlaceDetailActivity : AppCompatActivity() {
 

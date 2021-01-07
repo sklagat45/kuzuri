@@ -9,12 +9,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.sklagat46.kuzuri.adapters.HappyPlacesAdapter
 import com.sklagat46.kuzuri.R
+import com.sklagat46.kuzuri.adapters.HappyPlacesAdapter
 import com.sklagat46.kuzuri.database.DatabaseHandler
 import com.sklagat46.kuzuri.models.HappyPlaceModel
 import com.sklagat46.kuzuri.utils.SwipeToDeleteCallback
 import com.sklagat46.kuzuri.utils.SwipeToEditCallback
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         // This is used to align the xml view to this class
         setContentView(R.layout.activity_main)
 
-        // Setting an click event for Fab Button and calling the AddHappyPlaceActivity.
+        // Setting an click event for Fab Button and calling the AddHappyPlace.
         fabAddHappyPlace.setOnClickListener {
             val intent = Intent(this@MainActivity, AddHappyPlace::class.java)
 

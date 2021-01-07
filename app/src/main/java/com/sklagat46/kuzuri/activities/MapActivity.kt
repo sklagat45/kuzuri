@@ -2,9 +2,15 @@ package com.sklagat46.kuzuri.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.MarkerOptions
 import com.sklagat46.kuzuri.R
 import com.sklagat46.kuzuri.models.HappyPlaceModel
-import kotlinx.android.synthetic.main.activity_happy_place_detail.*
+import kotlinx.android.synthetic.main.activity_map.*
 
 
 /**
